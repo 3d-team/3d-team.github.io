@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: serif;
+}
+
+.background-page {
+    background-image: linear-gradient(135deg, rgb(0, 255, 112, 0.8), rgb(50, 200, 255, 0.8));
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: relative;
+}
+
+.background-circle-item {
+    height: 320px;
+    width: 320px;
+    background-image: linear-gradient(135deg, rgb(50, 200, 255, 0.4), rgb(0, 255, 112, 0.4));
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px rgb(176, 248, 242);
+}
+
+.left {
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+}
+
+.right {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+}
+
+
+
+.main-card {
+    position: absolute;
+    top: 85px;
+    bottom: 85px;
+    left: 85px;
+    right: 85px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 12px rgb(235, 241, 241);
+    background-color: rgba(102, 150, 147, 0.3);
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: row;
+}
+
+.card-info {    
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: rgb(60, 236, 148);
+    width: 300px;
+    height: 100%;
+    position: relative;
+}
+
+.avatar-frame{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 14px 0px;
+    background-image: linear-gradient(135deg, rgba(22, 122, 158, 0.8), rgba(13, 163, 78, 0.8));
+    border-radius: 16px;
+    box-shadow: 0px 0px 8px rgb(165, 238, 202);
+}
+
+.avatar-frame > img{
+    width: 90%;
+    border-radius: 16px;
+}
+
+.card-info > h3 {
+    text-align: center;
+    padding-top: 8px;
+    color: rgb(31, 104, 122);
+}
+
+.slogen{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-image :linear-gradient(135deg, rgba(4, 109, 246, 0.3), rgba(0, 255, 76, 0.3));
+    border-radius: 16px;
+    box-shadow: 0px 0px 8px rgb(165, 238, 202);
+}
+
+.slogen > h3 {
+    text-align: center;
+    padding-top: 8px;
+    color: rgb(31, 104, 122);
+}
+
+.slogen > img {
+    width: 25%;
+}
+
+.card-content {
+    width: 100%;
+}
+
+.card-content .info-detail {
+    padding: 16px;
+    color: rgb(31, 104, 122);
+    font-size: 24px;
+    background-color: rgba(116, 235, 235, 0.5);
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px teal;
+}
