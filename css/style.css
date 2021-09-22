@@ -74,6 +74,7 @@ main {
 
 main > .jumbotron > img {
 	border-radius: 16px;
+	width: 100%;
 }
 
 main > .about {
@@ -83,9 +84,44 @@ main > .about {
 	flex-direction: column;
 }
 
-main > .about > .about__title {
+.about > .about__title {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin: 20px 0;
+}
+
+.about > .about__content {
+	padding: 20px;
+	background-color: #6ca5df;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.about > .about__content > h2 {
+	color: yellow;
+}
+
+.about > .about__content span {
+	color: #1c3651;
+	font-weight: bolder;
+}
+
+footer {
+	margin-top: 20px;
+	height: 30px;
+	background-color: #6ca5df;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.footer > p {
+	color: #fff;
+	font-size: 20px;
 }
