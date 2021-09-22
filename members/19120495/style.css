@@ -1,0 +1,37 @@
+main {
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #6ca5df;
+}
+
+main > .personal {
+	background-color: white;
+	display: flex;
+	border-radius: 16px;
+}
+
+.personal > .personal__header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.personal > .personal__header > img {
+	width: 400px;
+	border-radius: 16px;
+}
+
+.personal > .personal__content {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+
